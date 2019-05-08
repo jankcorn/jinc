@@ -1,0 +1,7 @@
+#CXX := g++-4.0
+#CXXCPP := g++-4.0
+#CXXLD := g++-4.0
+CPPFLAGS := -m32 -ansi -pedantic -O3 -Wall -Wextra -Wno-long-long -Isrc/lib #-mtune=native #i686 #-march=pentium
+CXXFLAGS := -fPIC
+LDFLAGS :=  -shared -m32 
+LIBS := -m32 -lboost_thread 
